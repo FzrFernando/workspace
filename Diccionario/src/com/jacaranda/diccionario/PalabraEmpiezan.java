@@ -60,14 +60,14 @@ public class PalabraEmpiezan {
 			throw new PalabraException("La palabra no existe");
 		}
 		palabras.remove(pos);
-		//Debería borrar los significados de la palabra??
+		//DeberÃ­a borrar los significados de la palabra??
 	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(letra);
 	}
-
+	//Holaaaaa tio
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
